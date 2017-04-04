@@ -1,6 +1,23 @@
 Firebase 3.0 Starter using React Redux
 =====================
 
+To Deploy To Firebase
+=====================
+
+`npm install -g firebase-tools`
+
+edit `.firebaserc`
+`{
+  "projects": {
+    "default": "<your app id>",
+  }
+}
+`
+
+run `npm run build` to build the file
+run `npm run deploy` to deploy firebase
+
+
 This is a Firebase 3.0 start using React and Redux.
 
 It uses the latest version of libraries, including the brand new React Hot Loader ([still beta](https://github.com/gaearon/react-hot-loader/pull/240))
@@ -36,7 +53,7 @@ It uses the latest version of libraries, including the brand new React Hot Loade
 
 - Firebase:
   - Auth
-    - [X] Authentication setup (Registration/Login) 
+    - [X] Authentication setup (Registration/Login)
     - [X] state.user sync with Firebase Auth
     - [X] Protected routes (needs to be logged in)    
     - [X] Store users on `'/users/<user.uid>'`
@@ -44,7 +61,7 @@ It uses the latest version of libraries, including the brand new React Hot Loade
     - [X] Admin Protected routes (needs to be logged in)
   - Database
     - [X] Set example
-    - [X] Query example 
+    - [X] Query example
 
 ## Usage
 
