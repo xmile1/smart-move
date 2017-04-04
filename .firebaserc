@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "xmile-11fd1",
+    "production": "xmile-11fd1"
+  }
+}
